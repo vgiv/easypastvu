@@ -1,0 +1,17 @@
+{
+
+  "manifest_version": 2,
+  "name": "EasyPastvu",
+  "version": "1.2",
+  "description": "Putting corrdinates on pastvu.com photos",
+  "permissions": [
+	"*://pastvu.com/*"
+   ],
+  "content_scripts": [
+    {
+      "matches": ["*://pastvu.com/p/*"],
+      "js": ["easypastvu.js"]
+    }
+  ]
+
+}
