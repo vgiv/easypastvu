@@ -22,7 +22,7 @@ callback = function(mutationRecords) {
     }
   }
 }
-console.log('EasyPastvu: ver.1.12');
+console.log('EasyPastvu: ver.1.21');
 let observer = new MutationObserver( callback );
 observer.observe( document.body, {subtree: true, attributes: true, characterData: true, attributeFilter: ["download"]} );
 
