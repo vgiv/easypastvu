@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "EasyPastvu",
-  "version": "1.21",
+  "version": "1.3",
   "description": "Putting corrdinates on pastvu.com photos",
   "permissions": [
 	"*://pastvu.com/*"
